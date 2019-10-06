@@ -6,6 +6,7 @@ def sumDif(arr):
         diferencia=arr[0]
         diferencia=diferencia-arr[i]
     print(diferencia)
+    return diferencia
 
 
 sumDif([10, 2, 1]) #(10 - 2) + (2 - 1) = 9
